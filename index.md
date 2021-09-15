@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+科普介绍：
 
-You can use the [editor on GitHub](https://github.com/JiaLonghao1997/jialh.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+（1）https://www.westburg.eu/products/genomics-research/next-generation-sequencing/amplicon-panels/16s-its-metagenomics-panel
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+（2）
 
-### Markdown
+### 1. 基于Qiime2的多样性数据分析
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 1.1 细菌（16S rRNA V3-V4区域）
 
-```markdown
-Syntax highlighted code block
+基本处理参考：https://docs.qiime2.org/2021.4/tutorials/moving-pictures/
 
-# Header 1
-## Header 2
-### Header 3
+V3-V4区域分类器构建：https://rachaellappan.github.io/VL-QIIME2-analysis/pre-processing-of-sequence-reads.html#s-rrna-data
 
-- Bulleted
-- List
+#### 1.2 真菌（ITS1-ITS2)
 
-1. Numbered
-2. List
+ITS数据分析流程：http://john-quensen.com/tutorials/training-the-qiime2-classifier-with-unite-its-reference-sequences/
 
-**Bold** and _Italic_ and `Code` text
+ITS数据库：https://unite.ut.ee/repository.php
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JiaLonghao1997/jialh.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### 1.3 古细菌（16S rRNA V4-V5区域）
